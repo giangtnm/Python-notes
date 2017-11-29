@@ -14,9 +14,7 @@ def loop_replace():
 loop_replace()
 
 print "*******************************************"
-
 b = re.sub(r'([\n]+)', r'\n', i)
-
 print b
 
 '''result
@@ -40,4 +38,3 @@ abc123
 def456
 456def
 '''
-
