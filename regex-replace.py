@@ -14,7 +14,8 @@ def loop_replace():
 loop_replace()
 
 print "*******************************************"
-b = re.sub(r'([\n]+)', r'\n', i)
+# b = re.sub(r'([\n]+)', r'\n', i)
+b = re.sub(r'\n{2,}', r'\n', i)
 print b
 
 '''result
